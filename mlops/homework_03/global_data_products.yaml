@@ -1,0 +1,10 @@
+homework_3:
+  object_type: pipeline
+  object_uuid: ingest
+  outdated_after:
+    seconds: 600
+  project: homework_03
+  repo_path: /home/src/mlops/homework_03
+  settings:
+    build:
+      partitions: 1
